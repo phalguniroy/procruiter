@@ -84,7 +84,7 @@ app.set('view engine', 'hbs');
 
 // ENV variables 
 const ENV = process.env.NODE_ENV || 'default';
-const PORT = process.env.PORT || 9999;
+const PORT =  process.env.PORT || 9999;
 
 // Start the app on pre defined port number
 app.listen(PORT, function() {
